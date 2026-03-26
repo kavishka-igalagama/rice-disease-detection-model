@@ -22,7 +22,7 @@ env/
 # ML Models & Weights
 # =========================
 *.h5
-*.keras
+*.!keras
 *.pt
 *.pth
 *.joblib
@@ -36,6 +36,8 @@ data/
 /train/
 /valid/
 /test/
+/RRDI test images/
+/best accuracy dataset/
 *.csv
 *.xlsx
 
